@@ -1,0 +1,45 @@
+.head{
+    position: absolute;
+    top:10%;
+    background-color : #FFD93D;
+    width: 22pc ;
+    height : 22pc ;
+    left : 30pc ;
+    border-radius : 50%;
+    box-shadow : 10px 5px 5px gray;
+  }
+  .eye{
+      position: absolute;
+      height: 3pc;
+      width: 2pc;
+      background-color: #664500;
+      border-radius : 35%;
+      left: 26%;
+      bottom: 190px;
+  }
+  .eye2{
+      position: absolute;
+      height: 3pc;
+      width: 2pc;
+      background-color: #664500;
+      border-radius: 35%;
+      left: 60%;
+      bottom: 190px;
+  }
+  .mouth{
+      position: absolute;
+      height: 5pc;
+      width: 10pc;
+      background-color: #664500;
+      left: 90px;
+      bottom: 70px;
+      border-radius: 7px 7px 130px 130px;
+  }
+  body{
+      display: flex;
+  }
+  .myh2{
+      color: #FFD93D;
+      font-size: larger;
+      
+  }
