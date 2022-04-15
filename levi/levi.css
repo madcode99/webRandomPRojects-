@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=BIZ+UDPMincho&family=Rubik+Moonrocks&display=swap');
+body{
+    margin: 0;
+    padding: 0%;
+}
+main{
+    display: flex;
+    background: #1A132F;
+}
+h1{
+    font-family: Akshar,sans-serif ;
+    font-size: 5rem;
+    margin-left: 30px;
+    color: #64c785;
+    text-shadow: 0 0 0 transparent, 0 0 10px #C3E5AE, 0 0 20px rgba(113, 226, 179, 0.685), 0 0 40px #C3E5AE, 0 0 100px #C3E5AE, 0 0 200px #C3E5AE, 0 0 300px #C3E5AE, 0 0 500px #C3E5AE;
+    animation: text infinite 7s alternate;
+}
+@keyframes text {
+    0%{
+
+    }
+    40%{
+        color: #fff;
+        text-shadow: 0 0 0 transparent, 0 0 10px #2695ff, 0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #2695ff, 0 0 100px #2695ff, 0 0 200px #2695ff, 0 0 300px #2695ff, 0 0 500px #2695ff;
+    }
+    80%{
+        color: black;
+        text-shadow: 0 0 0 transparent, 0 0 10px #334756, 0 0 20px rgba(32, 36, 36, 0.5), 0 0 40px #334756, 0 0 100px #334756, 0 0 200px #334756, 0 0 300px #334756, 0 0 500px #334756;
+    }
+}
+.levi{
+    height: 615px;
+    margin-left: 20px;
+    width: 1120px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    display: flex;
+}
+.face{
+    height: 280px ;
+    width: 280px;
+    background: #FFEBC1;
+    position: relative;
+    clip-path: polygon(3% 0, 93% 0, 100% 39%, 90% 74%, 54% 100%, 34% 100%, 4% 68%, 0 20%);
+    border-radius: 12%;
+}
+.ear1{
+    height: 80px;
+    width: 50px;
+    background: #FFEBC1;
+    clip-path: polygon(21% 0, 57% 0, 84% 7%, 88% 59%, 35% 100%, 0 100%, 7% 67%, 0 28%);
+    position: absolute;
+    left: 65.5%;
+    top: 37%;
+}
+.ear2{
+    height: 80px;
+    width: 50px;
+    background: #FFEBC1;
+    clip-path: polygon(49% 0, 52% 0, 57% 8%, 60% 4%, 68% 100%, 68% 100%, 11% 59%, 23% 15%);
+    position: absolute;
+    left: 43.2%;
+    top: 37%;
+}
+.innerear1{
+    height: 50px;
+    width: 50px;
+    background: #E3CAA5;
+    clip-path: polygon(23% 6%, 63% 22%, 58% 56%, 44% 78%, 22% 89%, 30% 61%, 9% 32%);
+    position: absolute;
+    bottom: 23%;
+}
+.innerear2{
+    height: 50px;
+    width: 50px;
+    background: #E3CAA5;
+    clip-path: polygon(17% 15%, 23% 74%, 0 51%, 0 50%);
+    position: absolute;
+    left: 40%;
+    bottom: 20%;
+}
+.lips{
+    background: #DEBA9D;
+    height: 60px ;
+    width: 100px;
+    position: absolute;
+    clip-path: polygon(48% 12%, 80% 16%, 98% 39%, 82% 58%, 48% 66%, 15% 60%, 1% 40%, 20% 17%);
+    left: 51%;
+    bottom: 35%;
+}
+.innerlip{
+    background: #fff;
+    height: 3px;
+    width: 70px;
+    position: absolute;
+    z-index: -1;
+    left: 12%;
+    bottom: 59%;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 5px rgba(128, 128, 128, 0.623);
+    border: 1px solid #453c37;
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.623);
+}
+.nose{
+    background: black;
+    height: 10px ;
+    width: 10px;
+     position: absolute;
+     clip-path: polygon(49% 5%, 90% 57%, 43% 31%, 10% 29%);
+     left: 54;
+}
+.nose2{
+    background: black;
+    height: 10px ;
+    width: 10px;
+     position: absolute;
+     left: 53.7%;
+     clip-path: polygon(34% 29%, 100% 38%, 47% 58%, 0 100%);
+     top: 48.5%;     
+}
+.eye1{
+    height: 63px;
+    width: 60px;
+    position: absolute;
+    background: #E3CAA5;
+    top: 215px;
+    left: 49%;
+clip-path: polygon(44% 29%, 66% 34%, 86% 48%, 100% 74%, 50% 78%, 0 76%, 8% 51%, 21% 35%);
+
+}
+.eye2{
+    height: 63px;
+    width: 60px;
+    position: absolute;
+    background: #E3CAA5;
+    clip-path: polygon(44% 29%, 66% 34%, 86% 48%, 100% 74%, 50% 78%, 0 76%, 8% 51%, 21% 35%);
+    top: 215px;
+    left: 57%;
+}
+.eyelash1{
+    height: 45px;
+    width: 60px;
+    position: absolute;
+    background: black;
+clip-path: polygon(86% 70%, 100% 74%, 49% 77%, 0 76%, 0 68%);
+    top: 230px;
+    left: 49%;
+}
+.eyebro1{
+    background: black;
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    clip-path: polygon(20% 75%, 100% 92%, 100% 100%, 22% 87%, 0 100%);
+    left: 47.9%;
+    top: 180px;
+}
+.eyebro2{
+    background: black;
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    clip-path: polygon(75% 78%, 100% 100%, 77% 88%, 0 100%, 0 91%);
+    left: 57%;
+    top: 180px;
+}
+.eyelash2{
+    background: black;
+    position: absolute;
+    height: 35px;
+    width: 60px;
+    clip-path: polygon(86% 70%, 100% 74%, 49% 77%, 0 76%, 0 68%);
+    top: 238px;
+    left: 57%;
+}
+.eye{
+    background: white;
+    position: absolute;
+    height: 60px;
+    width: 70px;
+    clip-path: polygon(47% 51%, 81% 49%, 92% 61%, 89% 61%, 62% 62%, 0% 60%, 4% 54%);
+    top: 225px;
+    left: 57%;
+    border: 2px solid black;
+}
+.innereye{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background: #8FBDD3;
+    left: 59.3%;
+    top: 252px;
+    clip-path: polygon(53% 44%, 84% 44%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 20% 43%);
+
+}
+.line
+{
+    height: 170px;
+    width: 70px;
+    position: absolute;
+    background: #554840;
+clip-path: polygon(50% 0%, 47% 27%, 49% 73%, 52% 100%, 47% 88%, 45% 46%, 43% 23%);
+    left: 49%;
+}
+.line2{
+    height: 120px;
+    width: 70px;
+    position: absolute;
+    background: #554840;
+clip-path: polygon(50% 0%, 47% 27%, 49% 73%, 52% 100%, 47% 88%, 45% 46%, 43% 23%);
+left: 46.6%;
+top: 210px;
+}
+.hair1{
+    height: 90px;
+    width: 60px;
+    background: black;
+    position: absolute;
+    clip-path: polygon(51% 0, 56% 0, 79% 48%, 100% 100%, 65% 51%, 69% 85%, 52% 38%);
+    top: 160px;
+    left: 640px;
+}
+.hair2{
+    height: 90px;
+    width: 60px;
+    background: black;
+    position: absolute;
+    clip-path: polygon(80% 0, 86% 0, 79% 48%, 52% 100%, 65% 51%, 0 100%, 58% 36%);
+    top: 160px;
+    left: 750px;
+}
+.hair3{
+    height: 90px;
+    width: 60px;
+    background: black;
+    position: absolute;
+    clip-path: polygon(4% 1%, 43% 0, 63% 6%, 25% 100%, 27% 4%, 10% 100%, 11% 18%, 0 80%);
+    top: 160px;
+    left: 790px;
+}
+.hair4{
+    height: 90px;
+    width: 60px;
+    background: black;
+    position: absolute;
+    clip-path: polygon(4% 1%, 43% 0, 63% 6%, 25% 100%, 27% 4%, 10% 100%, 11% 18%, 0 80%);
+    top: 160px;
+    left: 590px;
+}
+.hair5{
+    height: 90px;
+    width: 60px;
+    background: black;
+    position: absolute;
+    clip-path: polygon(4% 1%, 43% 0, 63% 6%, 25% 100%, 27% 4%, 10% 100%, 11% 18%, 0 80%);
+    top: 160px;
+    left: 800px;
+}
+.hair6{
+    height: 90px;
+    width: 60px;
+    background: black;
+    position: absolute;
+    clip-path: polygon(4% 1%, 43% 0, 63% 6%, 25% 100%, 27% 4%, 10% 100%, 11% 18%, 0 80%);
+    top: 160px;
+    left: 625px;
+}
+.hair7{
+    clip-path: polygon(0 0, 42% 0, 60% 81%, 37% 13%, 45% 96%, 11% 18%, 23% 86%);
+    height: 90px ;
+    width: 60px;
+    background: black;
+    position: absolute;
+    top: 160px;
+    left: 820px;
+}
+.hair8{
+    height: 90px ;
+    width: 60px;
+    background: black;
+    position: absolute;
+    top: 160px;
+    left: 650px;
+    clip-path: polygon(27% 10%, 46% 22%, 45% 24%, 72% 100%, 26% 34%, 30% 100%, 7% 31%, 12% 23%);
+}
+.hair9{
+    clip-path: polygon(42% 0, 62% 0, 69% 28%, 58% 100%, 53% 26%, 20% 100%, 40% 22%, 45% 2%);
+    height: 90px ;
+    width: 60px;
+    background: black;
+    position: absolute;
+    top: 160px;
+    left: 810px;
+}
+.hair10{
+    clip-path: polygon(30% 0%, 93% 0, 58% 100%, 66% 15%, 24% 100%, 34% 53%, 0 100%, 33% 20%);
+    height: 90px ;
+    width: 60px;
+    background: black;
+    position: absolute;
+    top: 160px;
+    left: 740px;
+}
+.hair11{
+    clip-path: polygon(60% 0, 61% 26%, 88% 99%, 31% 17%, 56% 100%, 24% 46%, 26% 100%, 0 0);
+    height: 90px ;
+    width: 60px;
+    background: black;
+    position: absolute;
+    top: 160px;
+    left: 650px;
+}
+.hair12{
+    height: 90px;
+    width: 60px;
+    background: black;
+    position: absolute;
+    clip-path: polygon(4% 1%, 43% 0, 63% 6%, 25% 100%, 27% 4%, 10% 100%, 11% 18%, 0 80%);
+    top: 160px;
+    left: 625px;
+}
+.hair13{
+    clip-path: polygon(23% 1%, 70% 0%, 56% 100%, 46% 42%, 17% 99%, 23% 35%, 3% 78%, 3% 29%);
+    height: 90px ;
+    width: 60px;
+    background: black;
+    position: absolute;
+    top: 160px;
+    left: 560px;
+}
+.hair14{
+    clip-path: polygon(15% 23%, 63% 0, 86% 22%, 67% 100%, 64% 25%, 43% 100%, 47% 33%, 3% 100%);
+    height: 90px ;
+    width: 60px;
+    background: black;
+    position: absolute;
+    top: 160px;
+    left: 820px;
+}
+.hair15{
+    clip-path: polygon(9% 23%, 48% 4%, 92% 21%, 100% 100%, 71% 31%, 51% 49%, 27% 37%, 3% 100%);
+height: 90px ;
+width: 90px;
+background: black;
+position: absolute;
+top: 140px;
+left: 677px;
+}
+.head{
+    height: 40px ;
+width: 290px;
+background: black;
+position: absolute;
+top: 130px;
+left: 570px;
+}
+.box{
+    height: 340px;
+    width: 340px;
+    border: 5px solid black;
+    position: absolute;
+    left: 42.3%;
+    top: 130px;
+    
+}
