@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body,*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron' , sans-serif;
+    font-weight: bold;
+}
+.container{
+  padding: 10px;
+  margin: 0 auto;
+  height: 380px;
+  width: 380px;
+  border-radius: 12px;
+  background: #000D6B;
+  box-shadow: 9px 19px 24px -6px rgba(69,57,57,0.59);
+-webkit-box-shadow: 9px 19px 24px -6px rgba(69,57,57,0.59);
+-moz-box-shadow: 9px 19px 24px -6px rgba(69,57,57,0.59);
+}
+.display-box{
+    background-color: #dcdbe1;
+    color: black;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+    font-size: 1.5em;
+    height: 50px;
+}
+.button{
+    background-color: #9C19E0;
+    color: white;
+    border: solid black 0.5px;
+    width: 97%;
+    height: 63px;
+    border-radius: 5px;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+.btnEqual{
+    width: 100%;
+    background: #FF5DA2;
+}
+.button:hover ,
+.button:focus{
+    background-image: linear-gradient(to bottom right , #FE346E,#FF5DA2);
+}
+.btnEqual:hover,
+.btnEqual:focus{
+    background-image: linear-gradient(to bottom right , #400082,#9C19E0);
+}
